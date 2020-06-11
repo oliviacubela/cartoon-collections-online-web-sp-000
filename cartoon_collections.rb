@@ -11,7 +11,7 @@ end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer_calls)
-  calls.map do |call|
+  planeteer_calls.map do |call|
     "call.capitalize!"
   end
   planeteer_calls
