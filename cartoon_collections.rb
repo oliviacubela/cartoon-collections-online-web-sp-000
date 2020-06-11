@@ -1,12 +1,10 @@
-names = [ ]
-
 def roll_call_dwarves(names)
-  counter = 0
-  while counter < names.length
-    name = names[counter]
-    puts "#{name}"
-    counter += 1
-  end
+  # counter = 0
+  # while counter < names.length
+  #   name = names[counter]
+  #   puts "#{name}"
+  #   counter += 1
+  # end
 end
 
 roll_call_dwarves(names)
