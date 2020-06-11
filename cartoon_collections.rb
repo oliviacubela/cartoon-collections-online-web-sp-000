@@ -1,10 +1,7 @@
-def roll_call_dwarves(names)
-  # counter = 0
-  # while counter < names.length
-  #   name = names[counter]
-  #   puts "#{name}"
-  #   counter += 1
-  # end
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index do | name , index |
+    puts "#{index + 1} #{name}"
+  end
 end
 
 # roll_call_dwarves(names)
